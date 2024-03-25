@@ -14,6 +14,10 @@ export default class Customer {
     this.validate();
   }
 
+  get id() {
+    return this.#id;
+  }
+
   get name() {
     return this.#name;
   }
