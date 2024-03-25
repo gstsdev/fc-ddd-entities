@@ -11,6 +11,10 @@ export default class Product {
     this.validate();
   }
 
+  get id() {
+    return this.#id;
+  }
+
   get name() {
     return this.#name;
   }
