@@ -22,6 +22,10 @@ export default class Customer {
     return this.#name;
   }
 
+  get address() {
+    return this.#address;
+  }
+
   get rewardPoints() {
     return this.#rewardPoints;
   }
